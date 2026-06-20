@@ -1,0 +1,20 @@
+{
+  "name": "calculo-iva-ts",
+  "version": "1.0.0",
+  "description": "Actividad 2: Cálculo de IVA, Subtotal y Total con TypeScript",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["typescript", "iva", "subtotal", "total", "ventas"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.14.10"
+  }
+}
